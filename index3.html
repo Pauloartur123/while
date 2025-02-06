@@ -11,17 +11,18 @@
     */
 
     //ENTRADA
-    let nome = prompt("Imforme seu nome:");
+
+    //PROCESSAMENTO
+    let nome = prompt("Informe seu nome:");
+    while (Array.from(nome) < 3) {
+        alert("Nome invalido!!")
+        nome = prompt("Informe seu nome:");  
+    }
     let idade = Number(prompt("Informe sua idade:"));
     let salario = Number(prompt("Informe seu salario:"));
     let sexo = prompt("Informe seu sexo: (F ou M)");
     let estado = prompt("Informe seu estado civil: (S, C, V ou D)");
 
-    //PROCESSAMENTO
-
-    while () {
-        
-    }
 
 
     //SAÍDA
